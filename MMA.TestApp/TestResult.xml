@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="2" result="Failed" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="1" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-11-22 23:38:54Z" end-time="2019-11-22 23:38:55Z" duration="0.929937">
+  <command-line><![CDATA[nunit3-console  MMA.TestApp.sln]]></command-line>
+  <test-suite type="Assembly" id="11-1" name="MMA.TestApp.exe" fullname="D:\_projects\jenkins-test\MMA.TestApp\MMA.TestApp\bin\Debug\MMA.TestApp.exe" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
+    <properties>
+      <property name="_SKIPREASON" value="No suitable tests found in 'D:\_projects\jenkins-test\MMA.TestApp\MMA.TestApp\bin\Debug\MMA.TestApp.exe'.&#xA;Either assembly contains no tests or proper test driver has not been found." />
+    </properties>
+    <reason>
+      <message>No suitable tests found in 'D:\_projects\jenkins-test\MMA.TestApp\MMA.TestApp\bin\Debug\MMA.TestApp.exe'.
+Either assembly contains no tests or proper test driver has not been found.</message>
+    </reason>
+  </test-suite>
+  <test-suite type="Assembly" id="12-1004" name="MMA.TestApp.Tests.dll" fullname="D:\_projects\jenkins-test\MMA.TestApp\MMA.TestApp.Tests\bin\Debug\MMA.TestApp.Tests.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2019-11-22 23:38:55Z" end-time="2019-11-22 23:38:55Z" duration="0.221838" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="D:\_projects\jenkins-test\MMA.TestApp" machine-name="PLKAKL-5SBG8S2" user="mamali" user-domain="AD" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\_projects\jenkins-test\MMA.TestApp" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="12" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7680" />
+      <property name="_APPDOMAIN" value="domain-95c82e05-MMA.TestApp.Tests.dll" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="12-1005" name="MMA" fullname="MMA" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2019-11-22 23:38:55Z" end-time="2019-11-22 23:38:55Z" duration="0.195843" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="12-1006" name="TestApp" fullname="MMA.TestApp" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2019-11-22 23:38:55Z" end-time="2019-11-22 23:38:55Z" duration="0.195352" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="12-1007" name="Tests" fullname="MMA.TestApp.Tests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2019-11-22 23:38:55Z" end-time="2019-11-22 23:38:55Z" duration="0.195343" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="12-1000" name="CounterTest" fullname="MMA.TestApp.Tests.CounterTest" classname="MMA.TestApp.Tests.CounterTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-11-22 23:38:55Z" end-time="2019-11-22 23:38:55Z" duration="0.032471" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="12-1001" name="ShouldAdd" fullname="MMA.TestApp.Tests.CounterTest.ShouldAdd" methodname="ShouldAdd" classname="MMA.TestApp.Tests.CounterTest" runstate="Runnable" seed="111904160" result="Passed" start-time="2019-11-22 23:38:55Z" end-time="2019-11-22 23:38:55Z" duration="0.022388" asserts="1" />
+          </test-suite>
+          <test-suite type="TestFixture" id="12-1002" name="PathFixerTest" fullname="MMA.TestApp.Tests.PathFixerTest" classname="MMA.TestApp.Tests.PathFixerTest" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2019-11-22 23:38:55Z" end-time="2019-11-22 23:38:55Z" duration="0.154641" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="12-1003" name="ShouldCorrectPath" fullname="MMA.TestApp.Tests.PathFixerTest.ShouldCorrectPath" methodname="ShouldCorrectPath" classname="MMA.TestApp.Tests.PathFixerTest" runstate="Runnable" seed="887452131" result="Failed" label="Error" start-time="2019-11-22 23:38:55Z" end-time="2019-11-22 23:38:55Z" duration="0.154511" asserts="0">
+              <failure>
+                <message><![CDATA[System.Security.SecurityException : Requested registry access is not allowed.]]></message>
+                <stack-trace><![CDATA[   at System.ThrowHelper.ThrowSecurityException(ExceptionResource resource)
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+   at System.Environment.SetEnvironmentVariable(String variable, String value, EnvironmentVariableTarget target)
+   at MMA.TestApp.PathFixer.SetPath(String[] entries) in D:\_projects\jenkins-test\MMA.TestApp\MMA.TestApp\PathFixer.cs:line 19
+   at MMA.TestApp.Tests.PathFixerTest.ShouldCorrectPath() in D:\_projects\jenkins-test\MMA.TestApp\MMA.TestApp.Tests\PathFixerTest.cs:line 19]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
