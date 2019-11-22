@@ -15,6 +15,7 @@ namespace MMA.TestApp.Tests
         {
             var cut = new Counter();
             var result = cut.Add(1, 2);
+            Assert.AreEqual(3, 3);
         }
     }
 }
